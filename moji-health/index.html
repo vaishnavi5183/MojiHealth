@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js">
+   
+  var Parse = require('parse/node');
+  Parse.initialize("sJGwFTCalc9De3kTpy9O3BMPV96CyKjzIzPVBFXf", "TAc725izyAEjrk0HS3WKafv0rWj5lUVoa6f6Cysi"); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
+Parse.serverURL = "https://parseapi.back4app.com/";
+const MyFirstClass = Parse.Object.extend("MyFirstClass");
+const myFirstClass = new MyFirstClass();
+
+myFirstClass.set("name", "I'm able to save objects!");
+myFirstClass.save()
+.then((object) => {
+  // Success
+  alert('New object created with objectId: ' + object.id);
+}, (error) => {
+  // Save fails
+  alert('Failed to create new object, with error code: ' + error.message);
+});
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport"
+    content = "width=device-width,
+    initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+    content="ie=edge">
+    <title>Moji Health</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div id="circle">
+    </div>
+<div id="circle2"></div>   
+<div id="circle3"></div>  
+<div id="circle4"></div> 
+<div id="circle5"></div> 
+    <h1>
+        Moji Health
+    </h1>
+  <a
+  href="main.html">Click Here to Get Started!
+</a>
+
+
+  </body>
+</html> 

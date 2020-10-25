@@ -1,0 +1,58 @@
+body{
+margin: 0;
+padding: 0;
+background-color: navy;
+}
+
+.one{
+    position: absolute;
+    width: 320px;
+    height: 420px;
+    top: 0px;
+    left: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    background: #3498DB;
+    color:000;
+    font-family: Rhodium Libre;
+    font-size: large;
+    font-weight: 100;
+    
+    
+}
+
+.two{
+    position: absolute;
+    width: 320px;
+    height: 550px;
+    top: 0px;
+    left: 470px;
+    text-align: center;
+    background: #85C1E9;
+    color: 000;
+    box-sizing: border-box;
+}
+
+.three{
+    position: absolute;
+    width: 320px;
+    height: 550px;
+    top: 0px;
+    left: 840px;
+    text-align: center;
+    background: #3498DB;
+    color: 000;
+    box-sizing: border-box;
+}
+
+.four{
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    top: 440px;
+    left: 100px;
+    text-align: center;
+    background: #85C1E9;
+    color: 000;
+    box-sizing: border-box;
+}

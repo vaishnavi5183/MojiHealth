@@ -1,0 +1,145 @@
+#happy{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    text-align: center;
+    font-family: Rhodium Libre;
+}
+
+#sad{
+    position: absolute;
+    left:500px;
+    top:200px;
+    text-align: center;
+    font-family: Rhodium Libre;
+}
+
+#angry{
+    position:absolute;
+    left:700px;
+    top:200px;
+    text-align: center;
+    font-family: Rhodium Libre;
+}
+
+#fear{
+    position:absolute;
+    left:900px;
+    top:200px;
+    text-align: center;
+    font-family: Rhodium Libre;
+}
+
+
+.gui{
+    position: absolute;
+    margin-left:900px;
+    margin-top:200px;
+    width: 200px;
+    height: 50px;
+    background-color: lime;
+    border-radius: 20px;
+
+}
+.lonely{
+    position: absolute;
+    margin-left:500px;
+    margin-top:400px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(35, 151, 151);
+    border-radius: 20px;
+}
+.Hurt{
+    position: absolute;
+    margin-left:300px;
+    margin-top:100px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(80, 37, 236);
+    border-radius: 20px;
+}
+body{
+    background-color: lightblue;
+}
+
+
+
+.title{
+    position: absolute;
+    left: 550px;
+    color: black;
+    text-align: center;
+    top:100px;
+    font-family: Rhodium Libre;
+    
+font-style: normal;
+font-weight: normal;
+}
+.avatar{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    position:absolute;
+    top: -50px;
+    left:calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.sign-up-form p{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+}
+.sign-up-form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sign-up-form input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+
+.sign-up-form input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:navy;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.sign-up-form input[type="submit"]:hover{
+    cursor: pointer;
+    background: blue;
+    color:#000;
+}
+
+.sign-up-form a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.sign-up-form a:hover{
+    cursor: pointer;
+    color: blue;
+
+}
+
+
+

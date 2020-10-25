@@ -1,0 +1,113 @@
+
+body{
+    background:linear-gradient(132deg,white,#356AF3, white);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite; 
+   
+}
+@keyframes BackgroundGradient{
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+h1{
+    position: absolute;
+width: 1012px;
+height: 100px;
+left: 150px;
+top: 100px;
+
+font-family: Rhodium Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 150px;
+line-height: 5px;
+text-align: center;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.94);
+}
+a{
+    position: absolute;
+width: 300px;
+height: 50px;
+left: 475px;
+top: 350px;
+
+font-family: Rhodium Libre;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+text-align: center;
+color: #000000;
+
+
+}
+#circle{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    width: 120px;
+     height: 120px;
+     background: linear-gradient(132deg,white,#356AF3, black);
+     -moz-border-radius: 60px;
+     -webkit-border-radius: 60px;
+     border-radius: 60px;
+     animation: BackgroundGradient 30s ease infinite; 
+ 
+}
+#circle2{
+    position: absolute;
+    left: 800px;
+    top: 400px;
+    width: 120px;
+     height: 120px;
+     background: linear-gradient(132deg,white,#356AF3, black);
+     -moz-border-radius: 60px;
+     -webkit-border-radius: 60px;
+     border-radius: 60px;
+     animation: BackgroundGradient 30s ease infinite; 
+ 
+}
+#circle3{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 120px;
+     height: 120px;
+     background: linear-gradient(132deg,white,#356AF3, black);
+     -moz-border-radius: 60px;
+     -webkit-border-radius: 60px;
+     border-radius: 60px;
+     animation: BackgroundGradient 30s ease infinite; 
+ 
+}
+#circle4{
+    position: absolute;
+    left: 900px;
+    top: 100px;
+    width: 120px;
+     height: 120px;
+     background: linear-gradient(132deg,white,#356AF3, black);
+     -moz-border-radius: 60px;
+     -webkit-border-radius: 60px;
+     border-radius: 60px;
+     animation: BackgroundGradient 30s ease infinite; 
+ 
+}
+
+#circle5{
+    position: absolute;
+    left: 1100px;
+    top: 300px;
+    width: 120px;
+     height: 120px;
+     background: linear-gradient(132deg,white,#356AF3, black);
+     -moz-border-radius: 60px;
+     -webkit-border-radius: 60px;
+     border-radius: 60px;
+     animation: BackgroundGradient 30s ease infinite; 
+ 
+}
